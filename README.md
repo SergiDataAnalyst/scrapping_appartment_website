@@ -26,7 +26,7 @@ This script is designed to scrape apartment listing data from a Spanish real est
 ## Usage
 1. Update the `login_to_google` function with your Google credentials.
 2. Set the desired parameters for `page_number`, `sell_or_rent`, and `capital` in the `main` function as per your scraping needs.
-3. Modify the CombinedLocationIDs, latitude and longitude parameters accordingly to your search area, see image below:
+3. Modify the `CombinedLocationIDs`, ``latitude`` and ``longitude ``parameters accordingly to your search area, see image below:
 
 ![Apartment Listings](https://raw.githubusercontent.com/SergiDataAnalyst/scrapping_appartment_website/main/Network%20Tab.png)
 
