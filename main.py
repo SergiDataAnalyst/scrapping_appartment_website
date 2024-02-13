@@ -47,7 +47,7 @@ def login_to_google(driver, google_email, google_password):  # Not entirely nece
 
 
 def get_json_response(url, page_number, capital):
-    response = requests.get(url, headers=headers3)
+    response = requests.get(url, headers=headers4)
     if response.status_code == 200:
         print("response status:", response.status_code)
         try:
