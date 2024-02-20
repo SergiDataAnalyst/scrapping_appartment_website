@@ -90,7 +90,7 @@ def fotocasa(driver, page_number, sell_or_rent):
     except (NoSuchElementException, TimeoutException):
         print("Agree button not found")
 
-    ## While not mandatory I discovered that if their server detects js is executing inside your browser, it doesn't detect me as a bot and doesn't throw random captchas
+    ## While not mandatory I discovered that if they detect JS is executing inside your browser, it rarely detects me as a bot and doesn't throw random captchas
     ## Simulates randomly scrolling down
     smooth_scroll_js = """    
                             let totalHeight = 0;
